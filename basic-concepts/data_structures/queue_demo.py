@@ -1,0 +1,11 @@
+from collections import deque
+queue = deque(["Eric", "John", "Michael"])
+print('The items in the queue are :',queue)
+queue.append("Terry")
+print('After appending Terry :',queue)
+queue.append("Graham")          
+print('After appending Graham :',queue)
+print('Pop the item from the queue :',queue.popleft())
+print('After Pop :',queue)
+print('Pop the item from the queue :',queue.popleft())
+print('After Pop :',queue)
