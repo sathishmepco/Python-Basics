@@ -27,20 +27,3 @@ letters[2:5] = []
 print('Removing the upper case letters ::',letters)
 letters[:] = [] # equals to letters = []
 print('Clearing all the elements ::',letters)
-
-array = [23,32,43,25,52,35]
-print('Original List values :',array)
-array.sort()
-print('After sorting :',array)
-array.reverse()
-print('Reverse the list :',array)
-temp = [25,23]
-array.extend(temp)
-print('Add another list at end of the list :',array)
-print('How many time 25 is present in the list :',array.count(25))
-array.insert(0,10)
-print('Insert 10 at 0th index :',array)
-array.remove(23)
-print('Remove the first occurance of 23 :',array)
-array.clear()
-print('Clearing the list :',array)
