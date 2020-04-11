@@ -10,3 +10,16 @@ print('After Pop the stack is :',stack)
 stack.append(10)
 print('Push the element 10')
 print('After Push the stack is :',stack)
+
+'''
+OUTPUT
+------
+The Stack is : [3, 4, 5, 6, 7]
+Pop the element : 7
+After Pop the stack is : [3, 4, 5, 6]
+Pop the element : 6
+Pop the element : 5
+After Pop the stack is : [3, 4]
+Push the element 10
+After Push the stack is : [3, 4, 10]
+'''
