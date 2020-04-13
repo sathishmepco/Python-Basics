@@ -10,6 +10,8 @@ print('Add another list at end of the list :',array)
 print('How many time 25 is present in the list :',array.count(25))
 array.insert(0,10)
 print('Insert 10 at 0th index :',array)
+print('Max value in the list :',max(array))
+print('Min value in the list :',min(array))
 array.remove(23)
 print('Remove the first occurance of 23 :',array)
 array.clear()
@@ -24,6 +26,8 @@ Reverse the list : 						[52, 43, 35, 32, 25, 23]
 Add another list at end of the list : 	[52, 43, 35, 32, 25, 23, 25, 23]
 How many time 25 is present in the list : 2
 Insert 10 at 0th index : 				[10, 52, 43, 35, 32, 25, 23, 25, 23]
+Max value in the list : 				52
+Min value in the list : 				10
 Remove the first occurance of 23 : 		[10, 52, 43, 35, 32, 25, 25, 23]
 Clearing the list : 					[]
 '''
