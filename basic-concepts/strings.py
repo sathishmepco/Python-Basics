@@ -19,3 +19,9 @@ print("5 times displaying name :: ",5*'Sathish ')
 print('This will join '
 		'two lines together')
 print('Concatenate two strings ::',str+' Developer')		
+str = '      hello     '
+print('String trim (strip) function :',str.strip())
+str = '      hello'
+print('String left trim trim (lstrip) function :',str.lstrip())
+str = 'hello     '
+print('String right trim (rstrip) function :',str.rstrip())
