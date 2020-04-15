@@ -22,4 +22,5 @@ for i in range(4):
     transposed.append(transposed_row)
 print(transposed)
 
+
 list(zip(*matrix))
