@@ -32,7 +32,10 @@ print('Lower case conversion :',str)
 str = str.replace('l','L')
 print('Replace l with L :',str)
 str = 'Hello World'
-print('Splitting Hello World :',str.split(' '))
+print('Splitting Hello World :',str.split())
+str = 'Python#is#awesome'
+print('Spliting Python#is#awesome :',str.split('#'))
+
 
 
 '''
@@ -62,4 +65,5 @@ Upper case conversion : HELLO
 Lower case conversion : hello
 Replace l with L : heLLo
 Splitting Hello World : ['Hello', 'World']
+Spliting Python#is#awesome : ['Python', 'is', 'awesome']
 '''
