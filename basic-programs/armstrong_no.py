@@ -12,5 +12,9 @@ def main():
 		print('Given number',n,'is NOT a Arimstron number')
 main()
 '''
+Enter the n value : 153
+Given number 153 is a Arimstron number
 
+Enter the n value : 120
+Given number 120 is NOT a Arimstron number
 '''
