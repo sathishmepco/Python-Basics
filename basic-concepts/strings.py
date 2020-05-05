@@ -27,8 +27,12 @@ str = 'hello     '
 print('String right trim (rstrip) function :',str.rstrip())
 str = str.upper()
 print('Upper case conversion :',str)
+result = str.isupper()
+print('Is all chars are upper case :',result)
 str = str.lower()
 print('Lower case conversion :',str)
+result = str.islower()
+print('Is all chars are lower case :',result)
 str = str.replace('l','L')
 print('Replace l with L :',str)
 str = 'Hello World'
@@ -62,7 +66,9 @@ String trim (strip) function : hello
 String left trim trim (lstrip) function : hello
 String right trim (rstrip) function : hello
 Upper case conversion : HELLO
+Is all chars are upper case : True
 Lower case conversion : hello
+Is all chars are lower case : True
 Replace l with L : heLLo
 Splitting Hello World : ['Hello', 'World']
 Spliting Python#is#awesome : ['Python', 'is', 'awesome']
