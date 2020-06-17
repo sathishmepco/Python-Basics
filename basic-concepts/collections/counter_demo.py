@@ -32,4 +32,10 @@ Most Common ::
 [('blue', 3)]
 From String :: malayalam
 [('a', 4), ('m', 2), ('l', 2), ('y', 1)]
+a occured ::  4
+z occured ::  0
+Counter to List (reverse)
+List is ::  ['m', 'm', 'a', 'a', 'a', 'a', 'l', 'l', 'y']
+Subtract of two Counters ::
+Counter({'a': 3, 'b': 0, 'c': -3, 'd': -6})
 '''
